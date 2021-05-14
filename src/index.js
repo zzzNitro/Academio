@@ -11,7 +11,7 @@ app.use(express.json());
 
 /*
 Routes convention /{app}/{version}/{ruta} 
-User (need to add unique constraint to username)
+User
 Course
 Section 
 Class
