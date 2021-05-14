@@ -6,6 +6,8 @@ DB_USER
 DB_PASS
 DB_HOST
 DB_PORT
+
+(need to add unique constraint to username)
 */
 
 const pool = new Pool({
