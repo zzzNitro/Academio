@@ -4,7 +4,6 @@ CREATE TABLE users(
     user_id uuid DEFAULT uuid_generate_v4 (),
     username VARCHAR(50) NOT NULL UNIQUE,
     birthday DATE,
-    time_zone TIME with time zone,
     enrolled_courses json,
     teaching_courses json,
 
